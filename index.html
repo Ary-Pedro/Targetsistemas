@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercícios Interativos</title>
+</head>
+
+<body>
+    <h1>Exercícios Interativos</h1>
+    <p>Resolva os problemas abaixo interagindo com as entradas e botões.</p>
+    <br><br>
+    <div class="container">
+        <!-- Exercicio 1 -->
+        <div class="card">
+            <h3>Exercício 1</h3>
+            <p>Calcular o valor final de SOMA:</p>
+            <button onclick="calcularSoma()">Calcular SOMA</button>
+            <div class="result" id="resultadoSoma"></div>
+        </div>
+
+        <!-- Exercicio 2 -->
+        <div class="card">
+            <h3>Exercício 2</h3>
+            <p>Verificar se o número pertence à sequência de Fibonacci:</p>
+            <input type="number" id="numeroFibonacci" placeholder="Digite um número">
+            <button onclick="verificarFibonacci()">Verificar</button>
+            <div class="result" id="resultadoFibonacci"></div>
+        </div>
+
+        <!-- Exercicio 3 -->
+        <div class="card">
+            <h3>Exercício 3</h3>
+            <p>Calcular dados do faturamento:</p>
+            <button onclick="calcularFaturamento()">Calcular</button>
+            <div class="result" id="resultadoFaturamento"></div>
+        </div>
+
+        <!-- Exercicio 4 -->
+        <div class="card">
+            <h3>Exercício 4</h3>
+            <p>Calcular percentual de faturamento por estado:</p>
+            <button onclick="calcularPercentual()">Calcular</button>
+            <div class="result" id="resultadoPercentual"></div>
+        </div>
+
+        <!-- Exercicio 5 -->
+        <div class="card">
+            <h3>Exercício 5</h3>
+            <p>Inverter uma string:</p>
+            <input type="text" id="textoInverter" placeholder="Digite uma string">
+            <button onclick="inverterString()">Inverter</button>
+            <div class="result" id="resultadoInverter"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
